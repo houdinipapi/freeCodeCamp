@@ -1,0 +1,10 @@
+/**
+ * push the odd numbers from 9 to 1 to myArray using a for loop.
+ */
+
+// Setup
+const myArray = [];
+
+for (let i = 9; i >= 1; i -= 2) {
+  myArray.push(i);
+}
