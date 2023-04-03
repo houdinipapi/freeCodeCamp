@@ -1,0 +1,6 @@
+//check for mixed grouping of characters
+
+let myString = "Eleanor Roosevelt";
+let myRegex = /(Franklin|Eleanor) (([A-Z]\.?|[A-Z][a-z]+) )?Roosevelt/;
+let result = myRegex.test(myString);
+// After passing the challenge experiment with myString and see how the grouping works
